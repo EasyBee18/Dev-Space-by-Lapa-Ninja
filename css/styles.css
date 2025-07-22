@@ -64,7 +64,7 @@ header section{
 
 section .consultant h1{
     font-family:'poppins',sans-serif;
-    font-size: 3.5rem;
+    font-size: 3.6rem;
     font-weight: 700;
     color: #00ffd4;
     line-height: 1.3;
@@ -95,33 +95,99 @@ section .consultant h1{
 }
 
 .consult-illustration img{
-    /* height:450px; */
-    width: 675px;
+    height:380px;
+    width: 575px;
     margin-top: 25px;
 }
 
-
-main{
-    /*  */
-}
-
-main section{
+main .trusted-client{
     background-color: #f4f4f4;
-     padding:2.5rem 3rem 2.5rem;
+    padding:3rem 0;
 }
-main section h2{
+.trusted-client h2{
     font-family: 'poppins', sans-serif;
-    font-size: 2.5rem;
+    font-size: 1.4rem;
     font-weight: 600;
     text-align: center;
-    color: #fffff6de;
-    margin-bottom: 1rem;    
+    color: #2e2e2e;
+    opacity:0.4 ;
+    margin-bottom: 0.3rem;    
+}
+.trusted-client hr{
+    opacity: 0.3;
+    width:290px;
+    margin: 0 auto;
+}
+main .trustedClient-logo{
+    text-align: center;
+    margin-top: 2.5rem;
 }
 
+.trustedClient-logo img{
+    height: 35px;
+    margin-right:4rem;
+}
 
+/* what we do section */
+main .whatWeDo{
+    margin:3rem 3rem 4rem;
+}
 
-main section img{
-    height: 40px;
-    margin-right: 25px;
+.whatWeDo .caption{
+    margin:0 auto;
+}
+.caption h2{
+    font-family: 'poppins', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 600;
     text-align: center;
+    color: #2e2e2e;
+    opacity:0.4 ;
+    margin-bottom: 0.3rem;
+}
+.caption hr{
+   opacity: 0.3;
+    width:130px;
+    margin: 0 auto; 
+}
+
+.whatWeDo .services{
+    display: flex;
+    gap: 3.9rem;
+    margin-top: 2rem;
+}
+.services div{
+    margin: 0 auto;
+}
+
+.services .webApp,.SoftwareDev,.interface{
+    text-align: center;
+}
+
+.services img{
+  height: 65px;
+  margin-bottom: 1.2rem;
+}
+.services h2{
+    font-family:'poppins',sans-serif;
+    font-size: 1.3rem;
+    font-weight:bold;
+    opacity: 0.8;
+    margin-bottom: 1rem;
+}
+
+.services p{
+    width: 100%;
+    font-family: 'poppins',sans-serif;
+    font-size:1.2rem;
+    font-weight: 400;
+    opacity: 0.5;
+    margin-bottom: 1rem;
+}
+
+.services a{
+    text-decoration: none;
+    font-family: 'poppins',sans-serif;
+    font-size: 1.2rem;
+    color: #4240d4;
 }
