@@ -4,12 +4,14 @@
     box-sizing: border-box;
 }
 
+/* header contents */
 header{
     background: linear-gradient(145deg, rgb(11,14,143), rgb(6, 240, 123));
     padding:2rem  2.5rem 3rem 2.5rem;
     width: 100%;
-    height: auto;
 }
+
+/* navigational section */
 header nav{
     display: flex;
     justify-content: space-between;
@@ -55,7 +57,7 @@ nav .menu{
 .menu button:hover{
     background:#4240d4; 
 }
-
+/* header consultant section */
 header section{
     display: flex;
     align-items: center;
@@ -76,7 +78,7 @@ section .consultant h1{
     font-size: 1rem;
     font-weight: 300;
     color: #ffffff;
-    line-height: 1.6;
+    line-height: 1.8;
     letter-spacing: 0.05rem;
     margin: 2rem 0;
     opacity: 0.6;
@@ -91,7 +93,12 @@ section .consultant h1{
     background-color: transparent;
     border: 1px solid #ffffff66;
     outline: none;
-    padding: 0.8rem 1.5rem;
+    padding: 1rem 1.5rem;
+}
+
+.consultant button:hover{
+    background: #4b48d6;
+    border: none;
 }
 
 .consult-illustration img{
@@ -100,14 +107,17 @@ section .consultant h1{
     margin-top: 25px;
 }
 
+/* Main section */
+
+/* trusted clients section */
 main .trusted-client{
     background-color: #f4f4f4;
     padding:3rem 0;
 }
-.trusted-client h2{
+.trusted-client h3{
     font-family: 'poppins', sans-serif;
     font-size: 1.4rem;
-    font-weight: 600;
+    font-weight: 100;
     text-align: center;
     color: #2e2e2e;
     opacity:0.4 ;
@@ -115,7 +125,7 @@ main .trusted-client{
 }
 .trusted-client hr{
     opacity: 0.3;
-    width:290px;
+    width:270px;
     margin: 0 auto;
 }
 main .trustedClient-logo{
@@ -136,13 +146,13 @@ main .whatWeDo{
 .whatWeDo .caption{
     margin:0 auto;
 }
-.caption h2{
+.caption h3{
     font-family: 'poppins', sans-serif;
     font-size: 1.4rem;
-    font-weight: 600;
+    font-weight: 200;
     text-align: center;
     color: #2e2e2e;
-    opacity:0.4 ;
+    opacity:0.5 ;
     margin-bottom: 0.3rem;
 }
 .caption hr{
@@ -171,7 +181,7 @@ main .whatWeDo{
 .services h2{
     font-family:'poppins',sans-serif;
     font-size: 1.3rem;
-    font-weight:bold;
+    font-weight:600;
     opacity: 0.8;
     margin-bottom: 1rem;
 }
@@ -181,8 +191,10 @@ main .whatWeDo{
     font-family: 'poppins',sans-serif;
     font-size:1.2rem;
     font-weight: 400;
+    line-height: 1.4;
+    margin-bottom: 1.8rem;
     opacity: 0.5;
-    margin-bottom: 1rem;
+    word-spacing: 0.05rem;
 }
 
 .services a{
@@ -190,4 +202,104 @@ main .whatWeDo{
     font-family: 'poppins',sans-serif;
     font-size: 1.2rem;
     color: #4240d4;
+}
+
+/* how we work section */
+
+.HowWeWork{
+    background-color: #0a007e;
+    padding: 4.5rem 2.5rem 3rem 2.5rem;
+}
+
+.caption h3{
+    color: #ffffff;
+    font-family:'poppins',sans-serif;
+    font-size: 1.4rem;
+    font-weight: 100;
+}
+.caption hr{
+    width: 140px;
+    margin-bottom:3rem;
+}
+
+.ExtensiveCaption h2{
+    color: #ffff;
+    font-family: 'poppins',sans-serif;
+    font-size: 2.9rem;
+    font-weight: 700;
+    text-align: center;
+    line-height: 1.3;
+    margin-bottom: 1.3rem;
+}
+.ExtensiveCaption span{
+    color: #00ffd4;
+}
+
+.subscribe{
+    display:flex;
+    justify-content: center;
+    gap: 3rem;
+    margin: 2rem 0;
+    
+}
+.pro,.prem,.entre{
+    background-color: #ffff;
+    border: 1px solid #ffff;
+    padding: 1.3rem 2rem 0.8rem 2rem ;
+    width: 360px;
+}
+.subscribe h3{
+    font-family: 'poppins',sans-serif;
+    font-size: 1rem;
+    font-weight: 200;
+    opacity: 0.6;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.pro hr,.prem hr,.entre hr{
+    opacity: 0.2;
+     
+}
+.price h2{
+    font-family:'poppins', sans-serif;
+    font-size: 2.8rem;
+    margin: 1.5rem 0; 
+    text-align: center;
+}
+.price span{
+    font-size: 1rem;
+    opacity: 0.6;
+}
+
+.details p{
+    font-family: 'poppins', sans-serif;
+    font-size: 1rem;
+    line-height:1.8;
+    margin-bottom:20px;
+    text-align:center;
+    word-spacing:5px;
+}
+
+.details span{
+    font-weight: bold;
+}
+.btn{
+    text-align: center;
+}
+.btn button{
+    background:#000;
+    border: none;
+    color: #ffff;
+    cursor: pointer;
+    font-family: 'poppin',sans-serif;
+    font-size:1.2rem;
+    margin-bottom: 20px;
+    padding:0.8rem 3.8rem;
+    outline: none;
+    opacity:1;
+}
+.btn button:hover{
+    background: #4b48d6;
+    
 }
