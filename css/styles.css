@@ -146,19 +146,20 @@ main .whatWeDo{
 .whatWeDo .caption{
     margin:0 auto;
 }
-.caption h3{
+.whatWeDo .caption h3{
+    color: #000;
     font-family: 'poppins', sans-serif;
     font-size: 1.4rem;
     font-weight: 200;
+    margin-bottom: 5px;
+    opacity: 0.4;
     text-align: center;
-    color: #2e2e2e;
-    opacity:0.5 ;
     margin-bottom: 0.3rem;
 }
-.caption hr{
+.whatWeDo .caption hr{
    opacity: 0.3;
-    width:130px;
-    margin: 0 auto; 
+   width:130px;
+   margin: 0 auto; 
 }
 
 .whatWeDo .services{
@@ -211,15 +212,19 @@ main .whatWeDo{
     padding: 4.5rem 2.5rem 3rem 2.5rem;
 }
 
-.caption h3{
+.HowWeWork .caption h3{
     color: #ffffff;
     font-family:'poppins',sans-serif;
     font-size: 1.4rem;
     font-weight: 100;
+    margin-bottom: 5px;
+    opacity: 0.3;
+    text-align: center;
 }
-.caption hr{
-    width: 140px;
-    margin-bottom:3rem;
+.HowWeWork .caption hr{
+    width:150px;
+    margin: 0 auto;
+    opacity: 0.3;
 }
 
 .ExtensiveCaption h2{
@@ -229,7 +234,8 @@ main .whatWeDo{
     font-weight: 700;
     text-align: center;
     line-height: 1.3;
-    margin-bottom: 1.3rem;
+    margin-bottom:24px;
+    margin-top:24px;
 }
 .ExtensiveCaption span{
     color: #00ffd4;
@@ -275,14 +281,15 @@ main .whatWeDo{
 .details p{
     font-family: 'poppins', sans-serif;
     font-size: 1rem;
-    line-height:1.8;
+    line-height:1.2;
     margin-bottom:20px;
     text-align:center;
-    word-spacing:5px;
+    word-spacing:2px;
 }
 
 .details span{
-    font-weight: bold;
+    display: block;
+    margin-bottom: 14px;
 }
 .btn{
     text-align: center;
@@ -302,4 +309,139 @@ main .whatWeDo{
 .btn button:hover{
     background: #4b48d6;
     
+}
+
+/* section Our Team */
+
+main .ourTeam{
+    background-color:#f7f7f7 ;
+    padding: 4.5rem 2.5rem 3rem 2.5rem;
+  
+}
+ .ourTeam .teamMember{
+    display: flex;
+    justify-content: center;
+    gap: 170px;
+    
+ }
+
+ .ourTeam .caption h3{
+    color: #9a9a9a;
+    font-family: 'poppins', sans-serif;
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+    opacity: 0.5;
+    text-align: center;
+ }
+ .ourTeam .caption hr{
+    width:140px;
+    margin: 0 auto;
+    opacity: 0.3;
+}
+ .teamMember .teams img{
+    margin-top: 40px;
+    border-radius: 5px;
+ }
+ .teamMember .teams a{
+    color: #5755d9;
+    display: block;
+    font-family: 'poppins',sans-serif;
+    font-size: 1.3rem;
+    font-weight:bold;
+    margin-top: 20px;
+    text-align: center;
+    text-decoration: none; 
+ }
+
+ .teams p{
+    font-family: 'poippins', sans-serif;
+    font-size: 1rem;
+    font-weight: 200;
+    margin-top:10px;
+    opacity: 0.4;
+    text-align: center;
+ }
+
+ /* Open Source Software Section */
+ main .SoftwareSource{
+    margin:95px 0;
+    text-align: center;
+ }
+
+ .SoftwareSource .caption h3{
+    font-family: 'poppins', sans-serif;
+    color: #000;
+    margin-bottom: 5px;
+    opacity: 0.5;
+    text-align: center;
+ }
+
+ .SoftwareSource .caption hr{
+    width:190px;
+    margin: 0 auto;
+    opacity: 0.3;
+}
+.SoftwareSource .opensrc{
+    margin:40px 0;
+}
+
+.SoftwareSource .softwareCaption h2{
+    font-family: 'poppins',sans-serif;
+    font-size: 4rem;
+    font-weight: 650;
+    letter-spacing: 0.1rem;
+    margin: 10px 0;
+}
+
+.SoftwareSource .github button{
+    background: #ffffff;
+    border: 1px solid rgb(221, 221, 221);
+    color: #000;
+    cursor: pointer;
+    font-family: 'poppins', sans-serif;
+    font-size: 1.2rem;
+    padding: 1rem 2.8rem;
+    outline: none;
+    opacity: 1;
+}
+
+/* Footer Section */
+
+footer{
+    background-color: #0a007e;
+    padding:70px 50px;
+}
+
+footer .footerLinks{
+    display: flex;
+    justify-content:space-between;
+}
+
+.footerLinks ol{
+    list-style: none;
+}
+.footerLinks ol li{
+    color: #fff;
+    font-family: 'poppins',sans-serif;
+    font-size: 1.3rem;
+    font-weight: 400;
+    margin-bottom:20px;
+}
+
+.footerLinks ul{
+    list-style: none;
+}
+
+.footerLinks li{
+    margin-bottom: 14px;
+}
+.footerLinks li a{
+    color: #ffff;
+    font-family:'poppins',sans-serif;
+    font-size: 1rem;
+    font-weight: 100;
+    opacity: 0.7;
+    text-decoration: none;
+    
+
 }
