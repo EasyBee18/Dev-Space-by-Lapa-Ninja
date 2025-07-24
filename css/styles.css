@@ -7,7 +7,7 @@
 /* header contents */
 header{
     background: linear-gradient(145deg, rgb(11,14,143), rgb(6, 240, 123));
-    padding:2rem  2.5rem 3rem 2.5rem;
+    padding: 30px  50px 70px 50px;
     width: 100%;
 }
 
@@ -32,13 +32,16 @@ header .logo a{
 nav .menu{
     display: flex;
     align-items: center;
-    gap:2rem;
+    /* justify-content: center; */
+    
 }
 .menu a{
     text-decoration: none;
     font-family: 'poppin',sans-serif;
-    font-size: 1.2rem;
+    font-size: 1rem;
+    font-weight:500;
     color:#ffff;
+    margin-right:60px;
     opacity: 0.9;
 }
 
@@ -49,8 +52,9 @@ nav .menu{
     color: rgb(255, 255, 255);
     cursor: pointer;
     font-family: 'poppin',sans-serif;
-    font-size:1.2rem;
-    padding: 0.25rem 1rem;
+    font-size:18px;
+    margin-left: -35px;
+    padding: 5px 18px;
     outline: none;
     opacity:1;
 }
@@ -114,9 +118,9 @@ main .trusted-client{
     background-color: #f4f4f4;
     padding:3rem 0;
 }
-.trusted-client h3{
+.trusted-client .caption p{
     font-family: 'poppins', sans-serif;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     font-weight: 100;
     text-align: center;
     color: #2e2e2e;
@@ -125,7 +129,7 @@ main .trusted-client{
 }
 .trusted-client hr{
     opacity: 0.3;
-    width:270px;
+    width:240px;
     margin: 0 auto;
 }
 main .trustedClient-logo{
@@ -146,11 +150,11 @@ main .whatWeDo{
 .whatWeDo .caption{
     margin:0 auto;
 }
-.whatWeDo .caption h3{
+.whatWeDo .caption p{
     color: #000;
     font-family: 'poppins', sans-serif;
-    font-size: 1.4rem;
-    font-weight: 200;
+    font-size: 1.2rem;
+    font-weight: 100;
     margin-bottom: 5px;
     opacity: 0.4;
     text-align: center;
@@ -158,7 +162,7 @@ main .whatWeDo{
 }
 .whatWeDo .caption hr{
    opacity: 0.3;
-   width:130px;
+   width:110px;
    margin: 0 auto; 
 }
 
@@ -212,17 +216,17 @@ main .whatWeDo{
     padding: 4.5rem 2.5rem 3rem 2.5rem;
 }
 
-.HowWeWork .caption h3{
+.HowWeWork .caption p{
     color: #ffffff;
     font-family:'poppins',sans-serif;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     font-weight: 100;
     margin-bottom: 5px;
-    opacity: 0.3;
+    opacity: 0.5;
     text-align: center;
 }
 .HowWeWork .caption hr{
-    width:150px;
+    width:130px;
     margin: 0 auto;
     opacity: 0.3;
 }
@@ -230,7 +234,7 @@ main .whatWeDo{
 .ExtensiveCaption h2{
     color: #ffff;
     font-family: 'poppins',sans-serif;
-    font-size: 2.9rem;
+    font-size: 3.5rem;
     font-weight: 700;
     text-align: center;
     line-height: 1.3;
@@ -325,10 +329,11 @@ main .ourTeam{
     
  }
 
- .ourTeam .caption h3{
+ .ourTeam .caption p{
     color: #9a9a9a;
     font-family: 'poppins', sans-serif;
     font-size: 1.2rem;
+    font-weight: 100;
     margin-bottom: 5px;
     opacity: 0.5;
     text-align: center;
@@ -368,8 +373,9 @@ main .ourTeam{
     text-align: center;
  }
 
- .SoftwareSource .caption h3{
+ .SoftwareSource .caption p{
     font-family: 'poppins', sans-serif;
+    font-size: 1.2rem;
     color: #000;
     margin-bottom: 5px;
     opacity: 0.5;
@@ -400,6 +406,7 @@ main .ourTeam{
     cursor: pointer;
     font-family: 'poppins', sans-serif;
     font-size: 1.2rem;
+    margin-top: 40px;
     padding: 1rem 2.8rem;
     outline: none;
     opacity: 1;
